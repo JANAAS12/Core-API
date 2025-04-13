@@ -1,0 +1,16 @@
+<p>product works!</p>
+
+<div class="container">
+  <h1>Products</h1>
+  <div class="row">
+    <div class="col-md-4" *ngFor="let item of Product">
+      <div class="card mb-4 shadow-sm">
+
+        <div class="card-body">
+          <h5 class="card-title">{{item.ProductsName}}</h5>
+          <p class="card-text">{{item.ProductsDescription}}</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
